@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOME</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="icon" href="imagem/rede.png">
+
+    <style>
+
+        .cor{
+            background-color: rgb(60, 60, 60);
+        }
+
+        .corletra{
+            color: rgb(0, 0, 0);
+        }
+
+    </style>
+
+</head>
+
+<body class="cor">
+
+    <header>
+
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">
+                    <i class="bi-house-fill"></i>
+                    HOME
+                </a>
+                <a class="navbar-brand" href="mqt.html">
+                    <i class=""></i>
+                    MQTT
+                </a>
+                <a class="navbar-brand" href="htt.html">
+                    <i class=""></i>
+                    HTTP
+                </a>
+                <a class="navbar-brand" href="bluetoot.html">
+                    <i class=""></i>
+                    BLUETOOTH
+                </a>
+                <a class="navbar-brand" href="zigbee.html">
+                    <i class=""></i>
+                    ZIGBEE
+                </a>
+                <a class="navbar-brand" href="lorawan.html">
+                    <i class=""></i>
+                    LORAWAN
+                </a>
+                <a class="navbar-brand" href="nb.html">
+                    <i class=""></i>
+                    NB-IOT
+                </a>
+                <a class="navbar-brand" href="bibliografia.html">
+                    <i class=""></i>
+                    BIBLIOGRAFIA
+                </a>
+            </div>
+        </nav>
+
+    </header>
+
+    <main>
+
+        <div class="container-fluid p-3">
+            <div class="row">
+                <div class="col-sm-12 col-md-12 col-lg-12 text-center align-content-center">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12 cor border border-black bg-white rounded-5 corletra align-content-center pb-1">
+                                <h1>MQTT (Message Queuing Telemetry Transport)</h1>
+                                <h2>O que é?</h2> Protocolo leve de mensagens, ideal para dispositivos com recursos limitados (pouca memória/processamento) e
+                                redes de baixa largura de banda.
+                                <h2>Como funciona?</h2> Baseado no modelo Publish/Subscribe (Publicação/Assinatura). Dispositivos (clientes) enviam dados para um
+                                "tópico" em um servidor central (Broker), e outros dispositivos assinam esse tópico para receber a informação.
+                                <h2>Características Técnicas:</h2>
+                                Alcance: Depende da rede subjacente (Wi-Fi, Ethernet, Cellular). <br>
+                                Energia: Consumo muito baixo. <br>
+                                Taxa de Dados: Baixa (foco em mensagens curtas/telemetria). <br>
+                                <h2>Vantagens:</h2> Eficiente, confiável em redes instáveis, mensagens pequenas.
+                                <h2>Desvantagens:</h2> Não recomendado para transferência de arquivos grandes.
+                                <h2>Aplicações Reais:</h2> Monitoramento industrial (IIoT), Automação Residencial, Rastreamento de Veículos.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
